@@ -128,5 +128,6 @@ function animate() {
 
   renderer.render(scene, camera);
 }
+renderer.render(scene, camera);
 
 animate();
