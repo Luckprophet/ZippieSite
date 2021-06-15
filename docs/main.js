@@ -1,5 +1,5 @@
 
-import { WebGLRenderer } from '/node_modules/three/build/three.module.js';
+import { WebGLRenderer } from 'three';
 
 import * as THREE from '/node_modules/three/build/three.module.js';
 
@@ -128,6 +128,6 @@ function animate() {
 
   renderer.render(scene, camera);
 }
-renderer.render(scene, camera);
+
 
 animate();
