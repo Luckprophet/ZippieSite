@@ -17,9 +17,9 @@ canvas {
 
 
 :root {
-  --dark-bg: rgba(87, 86, 86, 0.95);
+  --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
-  border-radius: 25px;
+
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -28,7 +28,7 @@ canvas {
 
 main {
   width: 100vw;
-  color: rgb(94, 0, 102);
+  color: white;
   z-index: 99;
   position: absolute;
   width: 100%;
@@ -50,8 +50,6 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(255, 255, 255);
-
 }
 
 
@@ -82,7 +80,7 @@ canvas {
 
   blockquote p {
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     font-size: 4rem;
     display: inline;
     line-height: 1;
@@ -90,29 +88,4 @@ canvas {
 
   .left {
     grid-column: 6 / 12;
-  }
-
-  .myButton {
-    box-shadow:inset 0px 1px 0px 0px #e184f3;
-    background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
-    background-color:#c123de;
-    border-radius:6px;
-    border:1px solid #a511c0;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:15px;
-    font-weight:bold;
-    padding:24px 52px;
-    text-decoration:none;
-    text-shadow:0px 1px 9px #9b14b3;
-  }
-  .myButton:hover {
-    background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
-    background-color:#a20dbd;
-  }
-  .myButton:active {
-    position:relative;
-    top:1px;
   }
