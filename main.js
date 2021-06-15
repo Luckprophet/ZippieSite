@@ -1,4 +1,3 @@
-import './style.css';
 import { WebGLRenderer } from '/node_modules/three/build/three.module.js';
 
 import * as THREE from '/node_modules/three/build/three.module.js';
@@ -116,7 +115,7 @@ jeff.position.x = 2;
 // Animation Loop
 
 function animate() {
-  requestAnimationFrame(animate);
+  requestAnimationFrame( animate );
   jeff.rotation.y += 0.01;
   torus.rotation.x += 0.01;
   torus.rotation.y += 0.005;
