@@ -17,7 +17,7 @@ canvas {
 
 
 :root {
-  --dark-bg: rgba(15, 15, 15, 0.95);
+  --dark-bg: rgba(87, 86, 86, 0.95);
   --spacing: 350px;
 
   font-family: brandon-grotesque, sans-serif;
@@ -28,7 +28,7 @@ canvas {
 
 main {
   width: 100vw;
-  color: white;
+  color: rgb(94, 0, 102);
   z-index: 99;
   position: absolute;
   width: 100%;
